@@ -1,0 +1,22 @@
+<ion-view view-title="PIKA">
+  <ion-content>
+    <div class="row">
+      <div class="col col-50 col-offset-25">
+          <center><img src="../img/profile-test.png" style="width:auto;height:150px"></center>
+      </div>
+      
+    </div>
+
+    <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Notification
+    </ion-toggle>
+    <ion-toggle  ng-model="settings.enableLocation">
+        Location
+    </ion-toggle>
+    </ion-list>
+    <div>
+        <center><button class="button button-small button-positive" style="top:200px">Log Out</button></center>
+    </div>
+  </ion-content>
+</ion-view>
